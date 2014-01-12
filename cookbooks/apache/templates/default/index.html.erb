@@ -1,0 +1,11 @@
+<html>
+
+	<body>
+
+		<h1><%= node["fqdn"]%></h1>
+		<p>
+			Memory Stats: <%= node["memory"]["total"].to_i / 1024 %> MB memory available.
+		</p>
+	</body>
+
+</html>
