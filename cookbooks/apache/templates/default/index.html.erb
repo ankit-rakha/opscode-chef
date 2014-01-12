@@ -2,9 +2,14 @@
 
 	<body>
 
-		<h1><%= node["fqdn"]%></h1>
+		
+		<h1><%= node["company"]%></h1>
+		<h2><%= node["fqdn"]%></h2>
+		
 		<p>
+		
 			Memory Stats: <%= node["memory"]["total"].to_i / 1024 %> MB memory available.
+		
 		</p>
 	</body>
 
