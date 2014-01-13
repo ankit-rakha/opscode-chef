@@ -1,3 +1,3 @@
 name "base-ubuntu"
 description "Base role for Ubuntu servers"
-run_list "recipe[apt]"
+run_list "recipe[apt::default]","recipe[chef-client::cron]"
