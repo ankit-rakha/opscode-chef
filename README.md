@@ -1,9 +1,9 @@
-:speech_balloon: ==> INTRODUCTION
+:speech_balloon: INTRODUCTION
 ===============
 
 Chef is a ruby framework for automating, reusing and documenting server configuration.
 
-:speech_balloon: ==> TERMINOLOGY
+:speech_balloon: TERMINOLOGY
 ===============
 
 // Under construction ..
@@ -29,7 +29,7 @@ The knife.rb file is automatically created by the starter kit. This file can be 
 14) .pem file -> Located inside the .chef directory are .pem files, which contain private keys used to authenticate requests made to the Chef server. The USERNAME.pem file contains a private key unique to the user (and should never be shared with anyone). The ORGANIZATION-validator.pem file contains a private key that is global to the entire organization (and is used by all nodes and workstations that send requests to the Chef server).
 15) package ->
 
-==> FEATURES
+:speech_balloon:  FEATURES
 ===============
 
 1) Idempotence -> You can run Chef several times, but it won't run same commands after the first run if none of your inputs to it have changed. 
