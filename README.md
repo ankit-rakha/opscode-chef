@@ -1,3 +1,6 @@
+CHEF - opscode-chef
+===========================
+
 :speech_balloon: INTRODUCTION
 ===============
 
