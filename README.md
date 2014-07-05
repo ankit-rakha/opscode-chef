@@ -1,9 +1,9 @@
-==> INTRODUCTION
+:speech_balloon: ==> INTRODUCTION
 ===============
 
 Chef is a ruby framework for automating, reusing and documenting server configuration.
 
-==> TERMINOLOGY
+:speech_balloon: ==> TERMINOLOGY
 ===============
 
 // Under construction ..
